@@ -84,29 +84,6 @@ Hello from Spring Boot on Kubernetes!
 
 ---
 
-## 🔥 **Using Skaffold for Continuous Development**
-Skaffold watches for **code changes and redeploys automatically**.
-
-### **1️⃣ Start Skaffold in Development Mode**
-```sh
-skaffold dev
-```
-- **Edit `src/main/java/com/example/demo/DemoApplication.java`**
-- Change the response:
-  ```java
-  return "Hello from Kubernetes v2!";
-  ```
-- Save the file and **watch Skaffold automatically redeploy**! 🚀
-
-### **2️⃣ Stop Skaffold**
-Press:
-```
-Ctrl + C
-```
-Skaffold will **clean up all Kubernetes resources**.
-
----
-
 ## 📜 **Kubernetes Manifests**
 ### **Deployment (`k8s/deployment.yaml`)**
 ```yaml
