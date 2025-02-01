@@ -1,9 +1,3 @@
-Here's a **README.md** file for your **Spring Boot + Kubernetes** project. 🚀
-
----
-
-### 📌 **`README.md` for Spring Boot Kubernetes Microservice**
-```md
 # Spring Boot Microservice on Kubernetes
 
 This project is a **Spring Boot** microservice that runs inside **Kubernetes (Minikube)** and is deployed using **Docker & Skaffold**. It includes **Spring Cloud** features for service discovery (Eureka) and supports hot reloading for fast development.
